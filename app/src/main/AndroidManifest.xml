@@ -16,6 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.NormalBlurredActivity"/>
+        <activity android:name=".activity.LocalBlurredActivity"/>
     </application>
 
 </manifest>
