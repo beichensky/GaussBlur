@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.zgd.gaussblur.MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_normal_blur"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/normal_blur_iv_description"
+        android:scaleType="fitXY"
+        android:src="@drawable/pic"/>
+
+    <Button
+        android:id="@+id/btn_normal_blurred"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/normal_blur_btn_text"/>
+
+</RelativeLayout>

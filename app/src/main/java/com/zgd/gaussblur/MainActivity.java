@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 
+import com.zgd.gaussblur.activity.NormalBlurredActivity;
+
 public class MainActivity extends ActionBarActivity implements View.OnClickListener {
 
     @Override
@@ -27,6 +29,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         Intent intent = null;
         switch (v.getId()) {
             case R.id.btn_to_normal_blurred:
+                intent = new Intent(this, NormalBlurredActivity.class);
                 break;
             case R.id.btn_to_local_blurred:
                 break;
