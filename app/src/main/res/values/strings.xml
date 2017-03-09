@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">高斯模糊</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="main_to_normal_blurred">普通高斯模糊</string>
+    <string name="main_to_local_blurred">局部高斯模糊(模拟弹出对话框)</string>
+    <string name="main_to_dynamic_blurred">动态高斯模糊</string>
+    <string name="main_to_slidemenu_blurred">侧拉菜单局部高斯模糊</string>
+    <string name="normal_blur_iv_description">示例图片</string>
+    <string name="normal_blur_btn_text">高斯模糊</string>
+    <string name="local_blur_show_dialog">弹出对话框</string>
+    <string name="blurredview_blurred_img_description">模糊图片</string>
+    <string name="blurredview_origin_img_description">原始图片</string>
+
+    <string name="fragment_dialog_title">对话框</string>
+    <string name="fragment_dialog_username">用户名</string>
+    <string name="fragment_dialog_password">密码</string>
+    <string name="fragment_dialog_btn">登录</string>
+    <string name="title_activity_slide_menu_blurred">SlideMenuBlurredActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+</resources>
