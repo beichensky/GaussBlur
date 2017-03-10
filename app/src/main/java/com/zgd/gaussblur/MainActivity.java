@@ -8,6 +8,7 @@ import android.view.View;
 import com.zgd.gaussblur.activity.DynamicBlurredActivity;
 import com.zgd.gaussblur.activity.LocalBlurredActivity;
 import com.zgd.gaussblur.activity.NormalBlurredActivity;
+import com.zgd.gaussblur.activity.SlideMenuBlurredActivity;
 
 public class MainActivity extends ActionBarActivity implements View.OnClickListener {
 
@@ -40,6 +41,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
                 intent = new Intent(this, DynamicBlurredActivity.class);
                 break;
             case R.id.btn_to_slidemenu_blurred:
+                intent = new Intent(this, SlideMenuBlurredActivity.class);
                 break;
             default:
                 break;
