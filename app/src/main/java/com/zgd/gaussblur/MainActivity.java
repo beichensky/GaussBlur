@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 
+import com.zgd.gaussblur.activity.DynamicBlurredActivity;
 import com.zgd.gaussblur.activity.LocalBlurredActivity;
 import com.zgd.gaussblur.activity.NormalBlurredActivity;
 
@@ -36,6 +37,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
                 intent = new Intent(this, LocalBlurredActivity.class);
                 break;
             case R.id.btn_to_dynamic_blurred:
+                intent = new Intent(this, DynamicBlurredActivity.class);
                 break;
             case R.id.btn_to_slidemenu_blurred:
                 break;

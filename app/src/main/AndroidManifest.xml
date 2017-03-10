@@ -17,6 +17,7 @@
         </activity>
         <activity android:name=".activity.NormalBlurredActivity"/>
         <activity android:name=".activity.LocalBlurredActivity"/>
+        <activity android:name=".activity.DynamicBlurredActivity"/>
     </application>
 
 </manifest>
